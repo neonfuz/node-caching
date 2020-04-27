@@ -2,7 +2,7 @@
 
 set -e
 
-./docache.sh &
+/build/docache.sh &
 
 ln -sf /build/node_modules .
 
